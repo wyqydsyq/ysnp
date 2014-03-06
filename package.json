@@ -1,0 +1,9 @@
+{
+	"name": "ysnp",
+	"version": "0.1.0",
+	"description": "A node.js password hasher - securely retrieve your passwords without actually storing them",
+	"keywords": ["passowrd", "manager", "you shall not pass", "ysnp", "secure", "encrypted"],
+	"scripts": {
+		"start": "bash ysnp.sh"
+	}
+}
