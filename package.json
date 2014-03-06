@@ -1,6 +1,6 @@
 {
 	"name": "ysnp",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A node.js password hasher - securely retrieve your passwords without actually storing them",
 	"keywords": ["passowrd", "manager", "you shall not pass", "ysnp", "secure", "encrypted"],
 	"license": "GPL-3.0",
@@ -14,9 +14,6 @@
 		"url": "https://github.com/pyrokinetiq/ysnp.git"
 	},
 	"bin": {
-		"ysnp": "./ysnp.sh"
-	},
-	"scripts": {
-		"start": "bash ysnp.sh"
+		"ysnp": "./ysnp.js"
 	}
 }
