@@ -1,2 +1,2 @@
 #!/bin/bash
-node ./ysnp.js
+node ./ysnp.js $1 $2
