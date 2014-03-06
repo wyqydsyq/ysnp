@@ -1,6 +1,6 @@
 {
 	"name": "ysnp",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "A node.js password hasher - securely retrieve your passwords without actually storing them",
 	"keywords": ["passowrd", "manager", "you shall not pass", "ysnp", "secure", "encrypted"],
 	"license": "GPL-3.0",

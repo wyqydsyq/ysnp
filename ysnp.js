@@ -48,7 +48,7 @@ rl.question('Service: ', function(service){
 	rl.question('Password: ', function(master){
 		var hash = crypto.createHash('sha256');
 		var password = hash.update(service + salt + master, 'utf8');
-		var password = hash.digest('hex').slice(0, length);
+		var password = password.digest().slice(0, length);
 		
 		console.log('Password for ' + service + ':', '\n\n', password, '\n');
 		rl.close();
