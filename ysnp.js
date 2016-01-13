@@ -17,7 +17,7 @@
 */
 
 var length = 12;
-var salt = '!!YouShalNotPass!!';
+var salt = '!!YouShallNotPass!!';
 
 // check if salt or length were specified
 if(typeof process.argv[2] != 'undefined'){
